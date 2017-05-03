@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/estadosunidos" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imgPais">
+
+        <TextView
+            android:id="@+id/txtPais"
+            style="@style/cuadroTextoStandar"
+            android:text="Peru" />
+
+        <TextView
+            android:id="@+id/txtUbicacion"
+            style="@style/cuadroTextoResaltado"
+            android:text="Ubicacion"
+            />
+
+    </LinearLayout>
+</LinearLayout>

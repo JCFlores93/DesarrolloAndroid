@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jeancarlo.recyclerview_apuestasamerica.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:title="Ver Saldo"
+        android:icon="@drawable/ic_view_module_black_18dp"
+        app:showAsAction="always"
+        android:id="@+id/opVerSaldo" />
+
+    <item
+        android:title="Apostar"
+        android:icon="@drawable/ic_star_black_48dp"
+        android:id="@+id/opApostar" />
+
+    <item
+        android:title="Ver Programacion"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_touch_app_black_18dp"
+        android:id="@+id/opVerProgramacion" />
+
+    <item
+        android:title="Ver Apuestas"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_view_module_black_18dp"
+        android:id="@+id/opApuestas" />
+</menu>

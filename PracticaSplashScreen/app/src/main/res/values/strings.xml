@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PracticaSplashScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_splash_screen">MainSplashScreen</string>
+</resources>
